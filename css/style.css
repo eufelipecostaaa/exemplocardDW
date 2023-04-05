@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card__fundo{
+    height: 180px;
+    background-size: cover;
+    background-image: url(../img/tecfundo.avif);
+}
+
+.card__img{
+    width: 55%;
+    /*display: block;
+    margin: auto;*/
+    position: relative;
+    top: 5px;
+    left: 115px;
+}
+
+.card__descricao{
+    padding: 20px;
+}
+
+.card__descricao h2{
+    margin-bottom: 10px;
+    color: rgb(94, 108, 128);
+    text-align: center;
+}
+
+.card__descricao p{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.card__descricao span{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+.card__botao button{
+    display: block;
+    margin: auto;
+    border: 1px solid rgb(105, 134, 228);
+    border-radius: 15px;
+    padding: 10px 15px;
+    background-color:  rgb(105, 134, 228);
+
+}
+    
+.card__botao button a{
+    color: aliceblue;
+    text-decoration: none;
+}
